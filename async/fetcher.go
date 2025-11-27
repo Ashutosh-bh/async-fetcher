@@ -1,3 +1,20 @@
+// Package async provides ergonomic, type-safe utilities for running asynchronous computations
+// in Go. It enables an Async/Await-like pattern for concurrent execution, safe result fetching,
+// panic handling, and context-aware cancellation.
+//
+// Features:
+//   - Async/Await syntax for running and awaiting computations.
+//   - Type safety via generics for arguments and return values.
+//   - Parallel execution and safe concurrent result retrieval.
+//   - Global panic handlers for robust error recovery.
+//   - Context support for cancellation and deadlines.
+//
+// Example usage:
+//
+//	f := Async(fetchUser, 42).Run(ctx)
+//	val, err := f.Await()
+//
+// See README.md for more details and advanced usage.
 package async
 
 import (
