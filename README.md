@@ -14,7 +14,7 @@
 ## Installation
 
 ```bash
-go get github.com/yourusername/async-fetcher/async
+go get github.com/ashutosh-bh/async-fetcher/async
 ```
 
 ## Usage
